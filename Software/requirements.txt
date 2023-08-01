@@ -1,0 +1,7 @@
+matplotlib==3.3.0
+numpy==1.22.0
+Pillow==9.2.0
+PyQt5==5.15.7
+scikit_image==0.19.3
+imagecodecs==2021.11.20
+tifffile==2022.8.12
