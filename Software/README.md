@@ -6,12 +6,12 @@ DHM-Viewer provide users with a graphical interface for adjusting the DHM parame
 ## Program Screen Shot
 | Standard Operation Procedures(SOP) |
 |----------------|
-|![Screen Shot](https://www.hardware-x.com/cms/attachment/2433e805-958b-46c1-8983-69b6ec5539b3/gr5.jpg)|
+|![Screen Shot](../images/gr5.jpg)|
 
 ## Processed Results
-| Quantitative Biological Dynamics (Off-axis Mode) | 3D Particle Tracking (In-line Mode) |
-|----------------|----------------|
-|![off axis](https://www.hardware-x.com/cms/attachment/cf425078-4fc1-4fe4-b137-6540c15eed5f/gr14.jpg)|![in line](https://www.hardware-x.com/cms/attachment/b23a7e0b-6a12-42eb-a62b-86a959e1b8b0/gr12.jpg)|
+| Quantitative Imaging (Off-axis Mode) | Long-term Biological Dynamics (Off-axis Mode) | 3D Particle Tracking (In-line Mode) |
+|----------------|----------------|----------------|
+|![off axis](../images/qpi.jpg)|![off axis](../images/gr14.jpg)|![in line](../images/gr12.jpg)|
 
 ## Software Installation and Setup
 
@@ -25,7 +25,7 @@ The dependencies include `Matplotlib`, `NumPy`, `Pillow`, `PyQt5`, `Scikit_image
 1. Download and install the latest Python3 (Version 3.7 or above) release. (3.7.13, 3.8.5, and 3.10.12 has been tested).
 2. Download and extract the package DHMViewer into the desired directory.
 3. Open a terminal in the DHMViewer directory, install the dependencies using pip command. Ran the following command:
-```
+```bash
 pip install -r./configuration.txt
 ```
 
@@ -49,9 +49,13 @@ and in-line operation modes.
 
 ## Software Operation
 Launch the DHMViewer program by double clicking dhm_viewer.py or running the Python command in the terminal.
-Ran the following command:
+Ran the following command (Linux, macOS):
+```bash
+python3 dhm_viewer.py
 ```
-python3 ./dhm_viewer.py
+On Windows (py launcher):
+```bash
+py dhm_viewer.py
 ```
 When the launcher window appears, seen in (Fig. 6a.), click on the desired mode of operation (off-axis or in-line) to switch to the appropriate SOP mode. The main window should appear (Fig. 5.). From the left side panel, click the dropdown menu to expand the details of each step, and click the red proceed button.
 
@@ -74,5 +78,5 @@ Once every dropdown menu has been checked, user is able to click save the config
 #### SOP Usage
 ![Fig. 8][2]
 
-[1]: https://www.hardware-x.com/cms/attachment/351e360a-9cf5-484a-90c4-6fc97a72632f/gr7.jpg
-[2]: https://www.hardware-x.com/cms/attachment/741e077d-fb08-4f9b-875f-5a3133fcdd30/gr8.jpg
+[1]: ../images/gr7.jpg
+[2]: ../images/gr8.jpg

@@ -12,7 +12,7 @@ Full Paper: [P-TDHM: Open-source portable telecentric digital holographic micros
 
 Software installation and usage see README [here](https://github.com/YipLab/P-DHM/blob/main/Software/README.md).
 
-![Graphical Abstract](https://www.hardware-x.com/cms/attachment/934ac1cd-3180-49cb-acc4-8f8b15e1b5c1/ga1_lrg.jpg)
+![Graphical Abstract](images/ga1_lrg.jpg)
 
 # Core Capabilities
 - High-resolution imaging. The axial resolution of P-TDHM is not limited by conventional diffraction limit.
